@@ -28,6 +28,6 @@ int main() // клент
     a.Init('A', 10, -20);
     a.Print();
 
-    b.Init('B', 5, 16);
+    b.Init('B', 55, 16);
     b.Print();
 }
