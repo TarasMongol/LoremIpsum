@@ -22,8 +22,8 @@ public: // интерфейс объекта
 
     void Sum(Point b) {
         cout << "x: " << x + b.x << "\tY: " << y + b.y << endl;
-        cout << "x: " << x + b.x << "\tY: " << y + b.y << endl;
-        cout << "x: " << x + b.x << "\tY: " << y + b.y << endl;
+        cout << "x: " << x - b.x << "\tY: " << y - b.y << endl;
+        cout << "x: " << x * b.x << "\tY: " << y * b.y << endl;
     }
 };
 int main() // клент
